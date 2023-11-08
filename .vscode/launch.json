@@ -1,0 +1,37 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Ideagri",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "change_app_package_name:main com.package.appname",
+                "--dart-define=APP_FLAVOR=ideagri",
+                "--dart-define=DEFINE_APP_NAME=Ideagri app",
+                "--dart-define=DEFINE_BUNDLE_IDENTIFIER=com.ideagri.app",
+                "--dart-define=DEFINE_APP_ID=com.ideagri.app"
+            ]
+        },
+        {
+            "name": "Piracanjuba",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "change_app_package_name:main com.package.piracanjuba",
+                "--dart-define=APP_FLAVOR=piracanjuba",
+                "--dart-define=DEFINE_APP_NAME=Piracanjuba app",
+                "--dart-define=DEFINE_BUNDLE_IDENTIFIER=com.piracanjuba.app",
+                "--dart-define=DEFINE_APP_ID=com.piracanjuba.app"
+
+            ]
+        ,
+        
+            
+        },
+       
+    ]
+}
